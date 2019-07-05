@@ -56,12 +56,34 @@ body,h1,h2,h3,h4,h5,h6 {
 
 .column{
   float: left;
-  width: 48%;
+  width: 45%;
   padding: 10px;
+  margin-left: 20px;
   height: 300px;
+}
+
+.row{
+  padding-left: 12%;
+  padding-right: 12%;
+  margin-top: 40px;
 }
 
 .title{
   margin-top: 80px;
   text-align: center;
+}
+
+.centered-paragraph{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.centered-text{
+  text-align: center;
+}
+
+.flexed{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
