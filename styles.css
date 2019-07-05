@@ -1,12 +1,17 @@
 
 body, html {
   height: 100%;
+  color: #777;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif;
 }
 
 #navbar {
-  background-color: #333;
+  background-color: black;
   position: fixed;
-  top: 0px;
+  top: -50px;
   width: 100%;
   transition: top 0.3s;
 }
@@ -26,8 +31,6 @@ body, html {
 }
 
 .hero-image{
-  height: 100%;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,15 +38,30 @@ body, html {
 }
 
 .hero-image-1{
-  background-image: url("images/coffe1.jpg");
+  min-height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/coffe1.jpg");
 }
 
 
 .hero-text{
+  width: 300px;
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color:black;
+  color:white;
+  background-color: black;
+}
+
+.column{
+  float: left;
+  width: 48%;
+  padding: 10px;
+  height: 300px;
+}
+
+.title{
+  margin-top: 80px;
+  text-align: center;
 }
