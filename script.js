@@ -1,3 +1,4 @@
+/*
 window.onscroll = function() {
   scrollFunction();
 }
@@ -9,3 +10,4 @@ function scrollFunction() {
     document.getElementById("navbar").style.top = "-50px";
   }
 }
+*/
