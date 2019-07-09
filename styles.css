@@ -52,6 +52,11 @@ body,h1,h2,h3,h4,h5,h6 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/coffee2.jpg");
 }
 
+.hero-image-3{
+  min-height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/contact.jpg");
+}
+
 
 .hero-text{
   width: 300px;
@@ -65,6 +70,15 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 .hero-text-2{
+  position:absolute;
+  margin-top: 20%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  background-color: black;
+}
+
+.hero-text-3{
   position:absolute;
   margin-top: 20%;
   left:50%;
